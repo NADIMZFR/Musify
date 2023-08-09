@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+/* HEADER STYLING  */
+
+
+nav ul {
+    list-style: none;
+    color: white;
+    background-image: linear-gradient(180deg, rgb(36, 185, 36), black);
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    height: 100px;
+    width: 1280px;
+    text-shadow: black 1px 3px 2px;
+}
+
+li {
+    padding: 0 10px;
+}
+
+#brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#brand img {
+    height: 80px;
+    width: 110px;
+
+
+}
+
+
+
+
+
+
+
+/* SECTION STYLING  */
+
+
+
+.container {
+    height: 400px;
+    /* max-height: 400px; */
+    width: 1280px;
+    font-family: 'Ubuntu', sans-serif;
+
+    /* background-image: linear-gradient(360deg, rgb(108, 180, 108),black); */
+    background-color: black;
+    color: white;
+}
+
+.container h1 {
+    margin-left: 20px;
+}
+
+
+.songlist {
+    margin-left: 20px;
+    height: 300px;
+    width: 800px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.songs img {
+    margin-top: 10px;
+
+    width: 60px;
+    height: 60px;
+}
+
+
+.poster1 {
+    width: 600px;
+    margin-left: 650px;
+    margin-top: -300px;
+    border-radius: 35px;
+    display: grid;
+
+}
+
+
+/* FOOTER STYLING  */
+
+
+.bottom {
+    background-color: black;
+    margin-top: 0px;
+    height: 100px;
+    width: 1280px;
+    position: relative;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.range {
+    /* -webkit-appearance: none; */
+    width: 520px;
+    height: 10px;
+    background-image: linear-gradient(360deg, rgb(36, 185, 36), black);
+    border-radius: 10px;
+    margin-bottom: -30px;
+}
+
+
+
+
+
+.icons {
+    margin-bottom: 6px;
+
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#A {
+    margin-left: 16px;
+}
+
+#B {
+    margin-left: 20px;
+}
+
+#X {
+    margin-right: 20px;
+}
+
+#Y {
+    margin-right: 16px;
+
+}
+
+@media screen and (max-width: 576px) {
+    /* Adjust your styles for mobile-sized screens here */
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust your styles for tablet-sized screens here */
+}
